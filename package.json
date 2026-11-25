@@ -1,0 +1,18 @@
+{
+  "name": "value-baseline",
+  "version": "0.2.0",
+  "private": true,
+  "description": "通用定价、放量与回本测算引擎",
+  "type": "commonjs",
+  "scripts": {
+    "price": "node cli.js price",
+    "sweep": "node cli.js sweep",
+    "risk": "node cli.js risk",
+    "test": "node --test test/*.test.js",
+    "verify": "node --test test/*.test.js && node cli.js verify data/targets/example-web-service.json"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {}
+}

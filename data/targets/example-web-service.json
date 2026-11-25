@@ -1,0 +1,32 @@
+{
+  "name": "示例：内容订阅站（通用 target，换任何产品都能算）",
+  "currency": "CNY",
+  "costs": {
+    "developmentCost": 30000,
+    "launchCost": 3000,
+    "equipmentCost": 0,
+    "amortMonths": 24,
+    "fixedMonthly": 80,
+    "laborMonthly": 400,
+    "paymentRate": 0.03,
+    "refundRate": 0.02,
+    "taxRate": 0
+  },
+  "demand": {
+    "monthlyTraffic": 8000,
+    "baseConversion": 0.02,
+    "basePrice": 168,
+    "elasticity": 1.8,
+    "maxConversion": 0.4
+  },
+  "products": [
+    { "id": "month", "name": "基础月卡", "unit": "份/月", "price": 19, "varCost": 3, "churnMonthly": 0.12 },
+    { "id": "year", "name": "标准年卡", "unit": "份/年", "price": 168, "varCost": 22, "churnMonthly": 0.04 },
+    { "id": "pro", "name": "畅读年卡", "unit": "份/年", "price": 328, "varCost": 45, "churnMonthly": 0.03 }
+  ],
+  "anchors": [
+    { "id": "weread-year", "name": "微信读书 年卡", "unit": "year", "price": 168 },
+    { "id": "qqread-year", "name": "QQ阅读 年卡", "unit": "year", "price": 198 },
+    { "id": "qidian-chapter", "name": "起点 单章订阅", "unit": "chapter", "price": 0.05 }
+  ]
+}

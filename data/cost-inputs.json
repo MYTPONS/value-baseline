@@ -1,0 +1,10 @@
+{
+  "note": "示例成本参数，金额单位为人民币元；替换成你的产品或服务。",
+  "paymentRate": 0.03,
+  "paymentFixed": 0,
+  "refundRate": 0.02,
+  "targetMargin": 0.4,
+  "laborHourly": 50,
+  "laborHoursPerMonth": 3,
+  "blocksPerYuan": 100
+}
